@@ -101,6 +101,9 @@ audio{
          font-size:10vw;
         
     }
+    input{width: 72vw;
+         font-size:10vw;
+        }
 }
 
 
