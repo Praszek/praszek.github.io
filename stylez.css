@@ -72,7 +72,7 @@ a{text-decoration:none;
 
 #audiotest{
     width: 24vw;
-    height: 20vh;
+    min-height: 20vh;
     font-size:2vw;
     color:white;
     float:left;
@@ -99,6 +99,7 @@ audio{
     audio{width: 66vw;}
     #audiotest{width: 72vw;
          font-size:10vw;
+        
         
     }
     input{width: 72vw;
