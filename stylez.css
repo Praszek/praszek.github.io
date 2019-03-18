@@ -5,7 +5,7 @@ padding: 0;
             background-repeat: no-repeat;*/
     background-color:#0D0D18;
     font-family:"Sigmar One";
- 
+ box-sizing: border-box;
 }
 
 
@@ -25,13 +25,12 @@ padding: 0;
 
 
 
-#mid{
-     min-height:60vh;
-    width: 70vw;
-    
+#mid{min-height:100%;
+    height: auto;
+    width:72vw;
     background-color:#410000;
     opacity:0.97;
-    margin-left: 15vw;
+    margin-left: 14vw;
     border-radius:2%;
     text-align: center;
 }
@@ -72,8 +71,8 @@ a{text-decoration:none;
 
 
 #audiotest{
-    width: 338.3px;
-    height: auto;
+    width: 24vw;
+    height: 20vh;
     font-size:2vw;
     color:white;
     float:left;
@@ -82,10 +81,14 @@ a{text-decoration:none;
     border-style: solid;
         border-style: outset;
     background-color: black;
-    
+    box-sizing: border-box;
 }
 
-
+audio{
+    
+    width:22vw;
+    height:2vh
+}
 
 
 

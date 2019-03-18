@@ -11,7 +11,17 @@
     <meta property="og:url" content="https://praszek.io/" />
      <meta property="og:title" content="Praszek gwiazda NBA" />
     <meta property="og:description" content="Praszek szaleje" /> 
+<script>
+   
+    function audplay()
+    {  
+        var a =document.getElementById("aa1");
+        a.play();
+          
+    }
+    
 
+    </script>
 
     </head>
 <body>
@@ -21,9 +31,9 @@
           <a href="index.html"> XD</a>
     </div>
     <div id="mid">
-      <div id="audiotest"> 
+      <div id="audiotest" onclick="audplay()"> 
    <span>Czesc</span> 
-      <audio controls>
+      <audio controls id="aa1">
         <source src="muzyka/czesc%20tu%20akrlso1m.wav" type="audio/wav">
         
         </audio>  
