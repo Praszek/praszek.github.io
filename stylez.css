@@ -91,7 +91,17 @@ audio{
 }
 
 
-
+@media only screen and (max-width: 500px) {
+    #top{
+       height: 10vh;
+    }
+    
+    audio{width: 66vw;}
+    #audiotest{width: 72vw;
+         font-size:10vw;
+        
+    }
+}
 
 
 
