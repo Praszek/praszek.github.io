@@ -88,6 +88,7 @@ audio{
     
     width:22vw;
     height:2vh
+        
 }
 
 
@@ -96,7 +97,9 @@ audio{
        height: 10vh;
     }
     
-    audio{width: 66vw;}
+    audio{
+    display:none;
+    }
     #audiotest{width: 72vw;
          font-size:10vw;
         
